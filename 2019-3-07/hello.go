@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"github.com/BootyDog/golang-learn/2019-3-07/utils"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 		who = strings.Join(os.Args[1:],"")
 	}
 	fmt.Println("Hello",who)
+	utils.Printhello()
 }
